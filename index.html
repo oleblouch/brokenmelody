@@ -17,13 +17,6 @@ p {
     font-size: 20px;
   }
 
-.voice::before {
-  content: "avec voix principale";
-}
-
-.playback::before {
-  content: "playback";
-}
 
         </style>
     </head>
@@ -52,50 +45,29 @@ p {
 
         <h2>Chansons - composées par Gary Wilson</h2>
 
-        <h3>Baratineur</h3>
-
-        <div class="voice">
-            <audio controls>
-            <source src="songs/baratineur.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-        <div class="playback">
-            <audio controls>
-                Version playback
-                <source src="songs/baratineur_playback.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-        </ul>
-
-        <p>Dis moi</p>
-        <div class="voice">
-            <audio controls>
-            <source src="songs/dis_moi.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-        <div class="playback">
-            <audio controls>
-                <source src="songs/dis_moi_playback.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-
-        <p>Quotidien</p>
-        <div class="voice">
-            <audio controls>
-            <source src="songs/quotidien.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-        <div class="playback">
-            <audio controls>
-                <source src="songs/quotidien_playback.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+        
+    <table border="1"> 
+        <tr>
+            <th>Titre</th> 
+            <th>Avec voix principale</th>
+            <th>Version playback</th>
+        </tr>
+        <tr>
+            <td>Baratineur</td> 
+            <td><audio controls><source src="songs/baratineur.mp3" type="audio/mpeg"></audio></td>
+            <td><audio controls><source src="songs/baratineur_playback.mp3" type="audio/mpeg"></td>
+        </tr>
+        <tr>
+            <td>Dis-moi</td>
+            <td><audio controls><source src="songs/dis_moi.mp3" type="audio/mpeg"></audio></td>
+            <td><audio controls><source src="songs/dis_moi_playback.mp3" type="audio/mpeg"></td>
+        </tr> 
+        <tr>
+            <td>Quotidien</td>
+            <td><audio controls><source src="songs/quotidien.mp3" type="audio/mpeg"></audio></td>
+            <td><audio controls><source src="songs/quotidien_playback.mp3" type="audio/mpeg"></td>
+        </tr>
+    </table>
 
         <h2>Scenes</h2>
     </body>
