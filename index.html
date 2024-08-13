@@ -2,13 +2,101 @@
 <html>
     <head>
         <title>Broken Melody</title>
-    </head>
-    <body>
-        <p>Bienvenue sur le site du film Broken Melody.</p>
+        <style>
+body {
+    background-color: lightblue;
+  }
+  
+h1 {
+    color: white;
+    text-align: center;
+  }
+  
+p {
+    font-family: verdana;
+    font-size: 20px;
+  }
 
-        <audio controls>
-          <source src="songs/baratineur.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-        </audio>
+.voice::before {
+  content: "avec voix principale";
+}
+
+.playback::before {
+  content: "playback";
+}
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Bienvenue sur le site du film "Broken Melody" !</h1>
+
+        <h2>Introduction</h2>
+
+        Ecrit par Martin Carver, produit par Emilio Visconti et réalisé par Edward Meyer. <br>
+        Premier rôle masculin : Johnny Reed. <br>
+        Premier rôle féminin : en cours de casting. <br>
+
+        <h2>Script</h2>
+
+        Milwaukee, 1965.  
+        <br>Ernst Werner est un savant incompris. Il passe ses journées dans son laboratoire, privilégiant son travail à sa famille. D’ailleurs, il n’en a pas de famille, à part sa mère. Un vrai rat de laboratoire. Sur quoi travaille t’il ? Un remède à la maladie d’Alzheimer, pour guérir sa maman qu’il aime par-dessus tout. Ces essais sur divers animaux se révèlent très performants, malgré quelques effets secondaires notables ; en effet, les lapins-tests se sont tous entretués, se grignotant les yeux et se donnant des petits coups de pattes meurtriers. Les rats ont suivi le même processus. Les hiboux itou.
+        <br>Ne souhaitant pas voir un jour sa chère maman l’attaquer avec sa fourchette, il poursuit ses recherches, dilapidant les fonds de son laboratoire sans donner de résultats. 
+        <br>Malheureusement, l’économie est maîtresse des éléments et il se retrouve bientôt privé de ressources... et de travail. Humilié, désarçonné, pointé du doigt par la confrérie scientifique, et très très malheureux, il se résout finalement à la folie, lui octroyant toute liberté pour utiliser ses recherches à des fins machiavéliques.
+        <br>Il devient le terrible, l’effroyable "Docteur Medusa"... Il extermine tous ceux qui le gêne et même ceux qui ne le gêne pas, par des envois de bouteille de vin piégées contenant du "Spiridix", substance de sa composition contrôlant les esprits de ceux qui l’absorbent, les incitant à tuer et/ou à se suicider, c’est selon.
+        <br>Annie et Benny Anderson font partie de ses victimes. Un soir, ils découvrent une bouteille sur le pas de leur porte...
+        <br>        
+        <br><i>NB : Les personnages principaux de ce film sont Annie et Benny Anderson dont nous suivons le parcours amoureux, de leur rencontre à leur mort. Le scénario prévoit trois histoires parallèles et entrecoupées : l’histoire d’amour, la déchéance d’Ernst Werner et l’intrigue policière. Notre réalisateur Ed Meyer nous démontrera encore ses talents de grand spécialiste des montages anarchiques et complexes.</i>
+        <br>
+        <br><i>NB2 : Le scénariste Martin Carver s’est inspiré d’une tragédie familiale pour écrire cette histoire basée sur des faits réels.</i>
+
+        <h2>Chansons - composées par Gary Wilson</h2>
+
+        <h3>Baratineur</h3>
+
+        <div class="voice">
+            <audio controls>
+            <source src="songs/baratineur.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="playback">
+            <audio controls>
+                Version playback
+                <source src="songs/baratineur_playback.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+        </ul>
+
+        <p>Dis moi</p>
+        <div class="voice">
+            <audio controls>
+            <source src="songs/dis_moi.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="playback">
+            <audio controls>
+                <source src="songs/dis_moi_playback.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <p>Quotidien</p>
+        <div class="voice">
+            <audio controls>
+            <source src="songs/quotidien.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="playback">
+            <audio controls>
+                <source src="songs/quotidien_playback.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <h2>Scenes</h2>
     </body>
 </html>
