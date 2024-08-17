@@ -14,6 +14,8 @@ td {
 
 .actor {
     font-weight: bold;
+    background: #ecd476;
+    padding: 5px 15px;
 }
 
 .movie {
